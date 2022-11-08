@@ -1,3 +1,6 @@
+'''
+Write a program to check if the given number is a palindrome number.
+'''
 def palindrome(num):
     print("Orgnial NUmber: ", num)
     org_num = num
