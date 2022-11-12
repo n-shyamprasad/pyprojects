@@ -11,3 +11,11 @@ class Vehicle:
 
 objVehicle = Vehicle(240, 50)
 print(f"MAx Speed: {objVehicle.maxspeed}, Mailage: {objVehicle.mailge}")
+
+
+
+'''
+Create a Car class without any variables and methods
+'''
+class Car:
+    pass
