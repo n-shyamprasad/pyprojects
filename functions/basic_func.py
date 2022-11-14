@@ -46,3 +46,29 @@ print(f"result: {result}")
 
 
 #recursive function
+def addition(num):
+    if num>0:
+        return num + addition(num - 1)
+    else:
+        return 0
+res = addition(10)
+print("--------Test5--------")
+print(f"Recursive Addition: {res}")
+
+
+#assing function to varible
+new_fun = func1
+print("--------Test6--------")
+new_fun("this function created from func1", 100)
+
+#Generate a Python list of all the even numbers between 4 to 30
+print("--------Test7--------")
+print(list(range(4,30,2)))
+
+
+#Find the largest item from a given list
+x = [4, 6, 8, 24, 12, 2]
+print("--------Test8--------")
+print(f"Given list: {x}")
+print(f"Max number: {sorted(x,reverse=True)[0]}")
+print(f"Max number: {max(x)}")
